@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>English Premier League</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h1>English Premier League Table</h1>
+	<table id="simpleTable">
+		<thead>
+			<tr>
+				<th data-sort="string">Team</th>
+				<th data-sort="int">GP</th>
+				<th data-sort="int">W</th>
+				<th data-sort="int">D</th>
+				<th data-sort="int">L</th>
+				<th data-sort="int">Pts.</th>
+				<th data-sort="int">GF</th>
+				<th data-sort="int">GA</th>
+				<th data-sort="int">+/-</th>
+			</tr>	
+		</thead>
+		
+		<tbody>	
+		</tbody>
+	</table>
+	
+	<div id="new-game">
+		<select name="team1" id="team1">
+			<option value="arsenal">Arsenal FC</option>
+			<option value="astonvilla">Aston Villa</option>
+			<option value="burnley">Burnley</option>
+			<option value="chelsea">Chelsea</option>		
+			<option value="crystal">Crystal Palace</option>
+			<option value="everton">Everton</option>
+			<option value="hull">Hull</option>
+			<option value="leicester">Leicester City</option>
+			<option value="liverpool">Liverpool</option>
+			<option value="mancity">Manchester City</option>
+			<option value="manu">Manchester United</option>
+			<option value="newcastle">Newcastle United</option>
+			<option value="qpr">Queens Park Rangers</option>
+			<option value="southampton">Southampton</option>
+			<option value="stoke">Stoke City</option>
+			<option value="sunderland">Sunderland</option>
+			<option value="swansea">Swansea City</option>
+			<option value="tottenham">Tottenham</option>
+			<option value="wba">West Bromwich Albion</option>
+			<option value="westham">West Ham United</option>
+		</select>
+		<input type="text">
+		<select name="team2" id="team2">
+		</select>
+		<input type="text">
+		<button type="submit">Submit</button>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/stupidtable/0.0.1/stupidtable.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

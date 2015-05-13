@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+	font-family: Helvetica, Sans-serif;
+}
+
+table {
+	margin: 0 auto;
+	max-width: 90%;
+	background-color: #ddd;
+	border: 1px solid black;
+	border-radius: 1%;
+	font-family: Helvetica, Sans-serif;
+}
+
+td {
+	text-align: center;
+	border: 1px solid grey;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+#new-game {
+	padding-top: 10px;
+}
+
+/*thead:first-child {
+	text-align: left;
+}
+*/
+/*tbody tr:first-child {
+	text-align: left;
+}*/
